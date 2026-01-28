@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/github projects/GGJ/GGJUofC/Packages/manifest.json
+    m_FilePath: C:/Users/Ibrahim/Documents/GitHub/New folder/GGJ/GGJUofC/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639051612668499041
-    m_Hash: 2601070602
+      ticks: 639051647968439644
+    m_Hash: 2570099552
   m_LockFileStatus:
-    m_FilePath: D:/github projects/GGJ/GGJUofC/Packages/packages-lock.json
+    m_FilePath: C:/Users/Ibrahim/Documents/GitHub/New folder/GGJ/GGJUofC/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639051612668565110
-    m_Hash: 2160937148
+      ticks: 639051647968510754
+    m_Hash: 2451934993
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/github projects/GGJ/GGJUofC/Packages
+m_ProjectPath: C:/Users/Ibrahim/Documents/GitHub/New folder/GGJ/GGJUofC/Packages
 m_EditorVersion: 6000.0.56f1 (9c7b5e468860)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.8
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.8
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.ai.navigation@eb5635ad590d
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.ai.navigation@eb5635ad590d
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -153,7 +153,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.1.5
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.cinemachine@5342685532bb
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.cinemachine@5342685532bb
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -380,12 +380,206 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.cloud.gltfast@6.16.0
+  testable: 0
+  isDirectDependency: 1
+  version: 6.16.0
+  source: 1
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.cloud.gltfast@126b20060ad6
+  assetPath: Packages/com.unity.cloud.gltfast
+  name: com.unity.cloud.gltfast
+  displayName: Unity glTFast
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Use glTFast to import and export glTF 3D files efficiently at runtime
+    or in the Editor
+  errors: []
+  versions:
+    all:
+    - 5.0.4
+    - 5.2.0-pre.2
+    - 5.2.0
+    - 6.0.0-pre.2
+    - 6.0.0
+    - 6.0.1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+    - 6.7.0
+    - 6.7.1
+    - 6.8.0
+    - 6.9.0
+    - 6.9.1
+    - 6.10.0
+    - 6.10.1
+    - 6.10.2
+    - 6.10.3
+    - 6.11.0
+    - 6.12.0
+    - 6.12.1
+    - 6.13.0
+    - 6.13.1
+    - 6.14.0
+    - 6.14.1
+    - 6.15.0
+    - 6.15.1
+    - 6.16.0
+    compatible:
+    - 5.0.4
+    - 5.2.0-pre.2
+    - 5.2.0
+    - 6.0.0-pre.2
+    - 6.0.0
+    - 6.0.1
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+    - 6.7.0
+    - 6.7.1
+    - 6.8.0
+    - 6.9.0
+    - 6.9.1
+    - 6.10.0
+    - 6.10.1
+    - 6.10.2
+    - 6.10.3
+    - 6.11.0
+    - 6.12.0
+    - 6.12.1
+    - 6.13.0
+    - 6.13.1
+    - 6.14.0
+    - 6.14.1
+    - 6.15.0
+    - 6.15.1
+    - 6.16.0
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.24
+  - name: com.unity.collections
+    version: 1.2.4
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.24
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.5.1
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.1.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - mesh
+  - gltf
+  - asset
+  - format
+  - draco
+  - ktx
+  - basis
+  - universal
+  - basisu
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639046776556820000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@6.16/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.gltfast.src.git
+    revision: 385b9c69310c640c28293bed0c73f75e120212a6
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- [GltfAsset](xref:GLTFast.GltfAsset) property
+    setters to allow change of behavior from script.\n  - [PlayAutomatically](xref:GLTFast.GltfAsset.PlayAutomatically).\n 
+    - [SceneId](xref:GLTFast.GltfAsset.SceneId).\n- HDRP material validation (fixes
+    [#561](https://github.com/atteneder/glTFast/issues/561)).\n- Various overridable
+    shader loading methods to [MaterialGenerator](xref:GLTFast.Materials.MaterialGenerator)-based
+    classes so users can customize shader lookup. This is useful when working with
+    Addressables (fixes [#715](https://github.com/atteneder/glTFast/issues/715)).\n 
+    - [MaterialGenerator.FindShader](xref:GLTFast.Materials.MaterialGenerator.FindShader(System.String))
+    for generic, runtime shader resolution.\n  - [BuiltInMaterialGenerator.FindShaderMetallicRoughness](xref:GLTFast.Materials.BuiltInMaterialGenerator.FindShaderMetallicRoughness).\n 
+    - [BuiltInMaterialGenerator.FindShaderSpecularGlossiness](xref:GLTFast.Materials.BuiltInMaterialGenerator.FindShaderSpecularGlossiness).\n 
+    - [BuiltInMaterialGenerator.FindShaderUnlit](xref:GLTFast.Materials.BuiltInMaterialGenerator.FindShaderUnlit).\n 
+    - [ShaderGraphMaterialGenerator.LoadShaderByName](xref:GLTFast.Materials.ShaderGraphMaterialGenerator.LoadShaderByName(System.String)).\n\n###
+    Fixed\n- Emission color (emissiveFactor) is now in correct color space for shader
+    graphs and built-in shaders.\n- Normal map scale on shader graphs.\n- (Export)
+    Avoid creating empty ORM textures if no smoothness texture is assigned (fixes
+    [#801](https://github.com/atteneder/glTFast/issues/801)).\n\n### Deprecated\n-
+    Access to glTF images via [IGltfReadable.ImageCount](xref:GLTFast.IGltfReadable.ImageCount)
+    and [IGltfReadable.GetImage](xref:GLTFast.IGltfReadable.GetImage*). This has
+    not been used internally and was unreliable. Please access glTF textures instead
+    (see [TextureCount](xref:GLTFast.IGltfReadable.TextureCount) and [GetTexture](xref:GLTFast.IGltfReadable.GetTexture*))."}'
+  assetStore:
+    productId: 
+  fingerprint: 126b20060ad62f08a66b6b4e4a20998d06580dff
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 5.0.4
+    minimumUnityVersion: 2022.3.67f2
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.collab-proxy@2.11.3
   testable: 0
   isDirectDependency: 1
   version: 2.11.3
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -573,7 +767,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.39
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -707,7 +901,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -826,7 +1020,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.2
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.inputsystem@be6c4fd0abf5
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -989,7 +1183,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1082,7 +1276,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.5.0
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.postprocessing@94edadb6c5ab
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.postprocessing@94edadb6c5ab
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -1206,7 +1400,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 6.0.8
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.probuilder@2e7e30b1490d
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.probuilder@2e7e30b1490d
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -1412,7 +1606,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.4
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.render-pipelines.universal@ec146228694a
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.render-pipelines.universal@ec146228694a
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -1538,7 +1732,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.test-framework@16d3eb9e8c28
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.test-framework@16d3eb9e8c28
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1627,7 +1821,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1826,7 +2020,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.ugui@5c0fb321704a
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.ugui@5c0fb321704a
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1921,7 +2115,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -4782,7 +4976,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4861,7 +5055,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.render-pipelines.core@7f4c442d4f3e
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.render-pipelines.core@7f4c442d4f3e
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -4986,7 +5180,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.shadergraph@58c763b6444e
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.shadergraph@58c763b6444e
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5101,7 +5295,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.render-pipelines.universal-config@dd206bf35d04
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.render-pipelines.universal-config@dd206bf35d04
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5208,7 +5402,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5291,231 +5485,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.splines@2.8.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.8.1
-  source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.splines@b909627b5095
-  assetPath: Packages/com.unity.splines
-  name: com.unity.splines
-  displayName: Splines
-  author:
-    name: 
-    email: 
-    url: 
-  category: Tool
-  type: 
-  description: Work with curves and paths. Use the Splines package to generate objects
-    and behaviors along paths, create trajectories, and draw shapes.
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.1
-    - 1.0.0-pre.5
-    - 1.0.0-pre.7
-    - 1.0.0-pre.8
-    - 1.0.0-pre.9
-    - 1.0.0
-    - 1.0.1
-    - 2.0.0-pre.2
-    - 2.0.0-pre.4
-    - 2.0.0
-    - 2.1.0
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0
-    - 2.4.0
-    - 2.5.1
-    - 2.5.2
-    - 2.6.0
-    - 2.6.1
-    - 2.7.1
-    - 2.7.2
-    - 2.8.0
-    - 2.8.1
-    - 2.8.2
-    compatible:
-    - 2.8.1
-    - 2.8.2
-    recommended: 2.8.2
-    deprecated: []
-  dependencies:
-  - name: com.unity.mathematics
-    version: 1.2.1
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  resolvedDependencies:
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
-  keywords:
-  - spline
-  - curve
-  - path
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638822348021470000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
-    revision: ae2c33950924058f2912683d16e02268813ce44a
-    path: 
-  unityLifecycle:
-    version: 2.8.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Bug Fixes\n- [SPLB-345] Fixed a bug which was causing
-    null reference exceptions during shutdown in IL2CPP builds.\n- [SPLB-337] Fixed
-    a bug where `JoinSplinesOnKnots` would throw a null reference exception when
-    one of the splines was linked with another spline.\n- [SPLB-341] Fixed a bug
-    where changing the tangent mode on a knot on a prefab would not persist when
-    entering play mode.\n\n### Changed\n- Internal code cleanup to align with release
-    standards."}'
-  assetStore:
-    productId: 
-  fingerprint: b909627b5095061d48761597bbb8384d6f04e510
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.8.1
-    minimumUnityVersion: 2022.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.searcher@4.9.3
-  testable: 0
-  isDirectDependency: 0
-  version: 4.9.3
-  source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.searcher@1e17ce91558d
-  assetPath: Packages/com.unity.searcher
-  name: com.unity.searcher
-  displayName: Searcher
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: General search window for use in the Editor. First target use is for
-    GraphView node search.
-  errors: []
-  versions:
-    all:
-    - 4.0.0-preview
-    - 4.0.0
-    - 4.0.7-preview
-    - 4.0.7
-    - 4.0.8-preview
-    - 4.0.9
-    - 4.1.0-preview
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 4.3.2
-    - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
-    - 4.9.2
-    - 4.9.3
-    - 4.9.4
-    compatible:
-    - 4.9.2
-    - 4.9.3
-    - 4.9.4
-    recommended: 4.9.4
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - search
-  - searcher
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638731478077990000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.searcher@4.9/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 6fad693b6604ae7175b59ebb4990d9a0b6c1d012
-    path: 
-  unityLifecycle:
-    version: 4.9.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
-    Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
-  assetStore:
-    productId: 
-  fingerprint: 1e17ce91558d1d9127554adc03d275f39a7466a2
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 4.9.2
-    minimumUnityVersion: 2019.1.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.burst@1.8.24
   testable: 0
   isDirectDependency: 0
   version: 1.8.24
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.burst@f7a407abf4d5
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.burst@f7a407abf4d5
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5748,112 +5723,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.mathematics@1.3.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.3.2
-  source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.mathematics@8017b507cc74
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    compatible:
-    - 1.3.2
-    - 1.3.3
-    recommended: 1.3.3
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
-    path: 
-  unityLifecycle:
-    version: 1.3.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
-  assetStore:
-    productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.3.2
-    minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.collections@2.5.1
   testable: 0
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.collections@56bff8827a7e
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.collections@56bff8827a7e
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6042,12 +5917,331 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    compatible:
+    - 1.3.2
+    - 1.3.3
+    recommended: 1.3.3
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638409134840000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.splines@2.8.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.8.1
+  source: 1
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.splines@b909627b5095
+  assetPath: Packages/com.unity.splines
+  name: com.unity.splines
+  displayName: Splines
+  author:
+    name: 
+    email: 
+    url: 
+  category: Tool
+  type: 
+  description: Work with curves and paths. Use the Splines package to generate objects
+    and behaviors along paths, create trajectories, and draw shapes.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 1.0.0-pre.5
+    - 1.0.0-pre.7
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0-pre.2
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.1.0
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0
+    - 2.4.0
+    - 2.5.1
+    - 2.5.2
+    - 2.6.0
+    - 2.6.1
+    - 2.7.1
+    - 2.7.2
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    compatible:
+    - 2.8.1
+    - 2.8.2
+    recommended: 2.8.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 2.1.0
+  keywords:
+  - spline
+  - curve
+  - path
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638822348021470000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
+    revision: ae2c33950924058f2912683d16e02268813ce44a
+    path: 
+  unityLifecycle:
+    version: 2.8.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Bug Fixes\n- [SPLB-345] Fixed a bug which was causing
+    null reference exceptions during shutdown in IL2CPP builds.\n- [SPLB-337] Fixed
+    a bug where `JoinSplinesOnKnots` would throw a null reference exception when
+    one of the splines was linked with another spline.\n- [SPLB-341] Fixed a bug
+    where changing the tangent mode on a knot on a prefab would not persist when
+    entering play mode.\n\n### Changed\n- Internal code cleanup to align with release
+    standards."}'
+  assetStore:
+    productId: 
+  fingerprint: b909627b5095061d48761597bbb8384d6f04e510
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.8.1
+    minimumUnityVersion: 2022.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.searcher@4.9.3
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.3
+  source: 1
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.searcher@1e17ce91558d
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    compatible:
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    recommended: 4.9.4
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638731478077990000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.searcher@4.9/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 6fad693b6604ae7175b59ebb4990d9a0b6c1d012
+    path: 
+  unityLifecycle:
+    version: 4.9.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
+    Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
+  assetStore:
+    productId: 
+  fingerprint: 1e17ce91558d1d9127554adc03d275f39a7466a2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.9.2
+    minimumUnityVersion: 2019.1.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.rendering.light-transport@1.0.1
   testable: 0
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.rendering.light-transport@9bd588f963c0
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.rendering.light-transport@9bd588f963c0
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6152,7 +6346,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6245,7 +6439,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.1.0
   source: 1
-  resolvedPath: D:\github projects\GGJ\GGJUofC\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed
+  resolvedPath: C:\Users\Ibrahim\Documents\GitHub\New folder\GGJ\GGJUofC\Library\PackageCache\com.unity.test-framework.performance@92d1d09a72ed
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
