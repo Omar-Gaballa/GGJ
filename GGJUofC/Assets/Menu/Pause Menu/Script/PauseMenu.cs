@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -5,125 +6,114 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     [Header("Assign in Inspector")]
-    [SerializeField] private Canvas pauseCanvas;          // Drag your Canvas here
-    [SerializeField] private GameObject pauseMenuPanel;   // Drag PauseMenu Panel here (child of Canvas)
-
-    [Header("Fade Settings")]
+    [SerializeField] private GameObject pauseMenuPanel;   // Panel (child of Canvas)
     [SerializeField] private float fadeDuration = 0.25f;
-
-    [Header("Scene Index")]
     [SerializeField] private int mainMenuSceneIndex = 0;
 
     private CanvasGroup panelGroup;
-    private bool isPaused;
     private Coroutine fadeCoroutine;
+    private bool isPaused;
 
     void Awake()
     {
-        // Safety checks
-        if (pauseCanvas == null)
-            Debug.LogError("PauseMenu: pauseCanvas is not assigned!");
-
-        if (pauseMenuPanel == null)
-            Debug.LogError("PauseMenu: pauseMenuPanel is not assigned!");
-
-        // Grab (or add) CanvasGroup on the panel
-        if (pauseMenuPanel != null)
+        if (!pauseMenuPanel)
         {
-            panelGroup = pauseMenuPanel.GetComponent<CanvasGroup>();
-            if (panelGroup == null)
-                panelGroup = pauseMenuPanel.AddComponent<CanvasGroup>();
+            Debug.LogError("PauseMenu: pauseMenuPanel is not assigned!");
+            enabled = false;
+            return;
         }
-    }
 
-    void Start()
-    {
-        // Start hidden but active (so it can fade)
-        SetPanel(0f, false);
+        panelGroup = pauseMenuPanel.GetComponent<CanvasGroup>();
+        if (!panelGroup) panelGroup = pauseMenuPanel.AddComponent<CanvasGroup>();
+
+        // Initialize hidden & non-interactive
+        ApplyState(alpha: 0f, interactive: false, active: false);
         isPaused = false;
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (isPaused) Resume();
-            else Pause();
-        }
+            TogglePause();
+    }
+
+    public void TogglePause()
+    {
+        if (isPaused) Resume();
+        else Pause();
     }
 
     public void Pause()
     {
-        if (isPaused || panelGroup == null) return;
+        if (isPaused) return;
         isPaused = true;
 
         Time.timeScale = 0f;
 
-        pauseMenuPanel.SetActive(true);
-        panelGroup.interactable = true;
-        panelGroup.blocksRaycasts = true;
-
+        // Enable before fade so it can render & receive input
+        ApplyState(alpha: panelGroup.alpha, interactive: true, active: true);
         StartFade(1f);
     }
 
     public void Resume()
     {
-        if (!isPaused || panelGroup == null) return;
+        if (!isPaused) return;
         isPaused = false;
 
-        panelGroup.interactable = false;
-        panelGroup.blocksRaycasts = false;
+        // Stop interactions immediately, fade out visually
+        ApplyState(alpha: panelGroup.alpha, interactive: false, active: true);
 
         Time.timeScale = 1f;
 
-        StartFade(0f, () => pauseMenuPanel.SetActive(false));
+        StartFade(0f, () => ApplyState(alpha: 0f, interactive: false, active: false));
     }
 
     public void LoadMainMenu()
     {
+        // Always unpause before scene load
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenuSceneIndex);
     }
 
-    private void StartFade(float targetAlpha, System.Action onComplete = null)
+    private void StartFade(float targetAlpha, Action onComplete = null)
     {
-        if (fadeCoroutine != null)
-            StopCoroutine(fadeCoroutine);
-
+        if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
         fadeCoroutine = StartCoroutine(FadeRoutine(targetAlpha, onComplete));
     }
 
-    private IEnumerator FadeRoutine(float targetAlpha, System.Action onComplete)
+    private IEnumerator FadeRoutine(float targetAlpha, Action onComplete)
     {
         float startAlpha = panelGroup.alpha;
+
+        // Micro-optimization + avoids divide by zero
+        if (fadeDuration <= 0.0001f)
+        {
+            panelGroup.alpha = targetAlpha;
+            fadeCoroutine = null;
+            onComplete?.Invoke();
+            yield break;
+        }
+
+        float invDuration = 1f / fadeDuration;
         float t = 0f;
 
-        while (t < fadeDuration)
+        while (t < 1f)
         {
-            t += Time.unscaledDeltaTime; // works while paused
-            float lerp = Mathf.Clamp01(t / fadeDuration);
-            panelGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, lerp);
+            t += Time.unscaledDeltaTime * invDuration; // works while paused
+            panelGroup.alpha = Mathf.Lerp(startAlpha, targetAlpha, t);
             yield return null;
         }
 
         panelGroup.alpha = targetAlpha;
-        onComplete?.Invoke();
         fadeCoroutine = null;
+        onComplete?.Invoke();
     }
 
-    private void SetPanel(float alpha, bool interactive)
+    private void ApplyState(float alpha, bool interactive, bool active)
     {
-        if (pauseMenuPanel != null)
-            pauseMenuPanel.SetActive(true);
-
-        if (panelGroup != null)
-        {
-            panelGroup.alpha = alpha;
-            panelGroup.interactable = interactive;
-            panelGroup.blocksRaycasts = interactive;
-        }
-
-        if (pauseMenuPanel != null && alpha == 0f)
-            pauseMenuPanel.SetActive(false);
+        pauseMenuPanel.SetActive(active);
+        panelGroup.alpha = alpha;
+        panelGroup.interactable = interactive;
+        panelGroup.blocksRaycasts = interactive;
     }
 }
